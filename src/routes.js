@@ -12,8 +12,8 @@ class Routes extends Component {
             <BrowserRouter basename={process.env.PUBLIC_URL }>
                 <Header />
                 <Switch>
-                    <Route path="/Counter" component={Counter} />
-                    <Route path="/" component={Kform} />
+                    <Route path="/KafqaProject/Counter" component={Counter} />
+                    <Route path="/KafqaProject" component={Kform} />
                 </Switch>
             </BrowserRouter>
         )

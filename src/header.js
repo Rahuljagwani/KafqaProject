@@ -4,8 +4,8 @@ const Header = () => {
     return (
        
         <nav className="navbar">
-          <a className="navele" href="/">Form Validator</a>
-          <a className="navele" href="/Counter">Counter</a>
+          <a className="navele" href="/KafqaProject">Form Validator</a>
+          <a className="navele" href="/KafqaProject/Counter">Counter</a>
         </nav>
      
     );
