@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/KafqaProject/static/css/main.595d62d0.css",
-    "main.js": "/KafqaProject/static/js/main.8d79944b.js",
+    "main.css": "/KafqaProject/static/css/main.274d3040.css",
+    "main.js": "/KafqaProject/static/js/main.8e2959c1.js",
     "static/js/787.9101d653.chunk.js": "/KafqaProject/static/js/787.9101d653.chunk.js",
     "index.html": "/KafqaProject/index.html",
-    "main.595d62d0.css.map": "/KafqaProject/static/css/main.595d62d0.css.map",
-    "main.8d79944b.js.map": "/KafqaProject/static/js/main.8d79944b.js.map",
+    "main.274d3040.css.map": "/KafqaProject/static/css/main.274d3040.css.map",
+    "main.8e2959c1.js.map": "/KafqaProject/static/js/main.8e2959c1.js.map",
     "787.9101d653.chunk.js.map": "/KafqaProject/static/js/787.9101d653.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.595d62d0.css",
-    "static/js/main.8d79944b.js"
+    "static/css/main.274d3040.css",
+    "static/js/main.8e2959c1.js"
   ]
 }
