@@ -1,11 +1,10 @@
 import React from 'react';
-import './App.css';
-import Routes from './routes';
+import Kform from './Form';
 
 function App() {
   return (
    <>
-   <Routes /></>
+   <Kform /></>
   );
 }
 
