@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, Route, HashRouter } from 'react-router-dom';
+import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
 import Header from './header';
 import Counter from './Counter';
@@ -9,13 +9,13 @@ class Routes extends Component {
 
     render() {
         return (
-            <HashRouter>
+            <BrowserRouter>
                 <Header />
                 <Switch>
                     <Route path="/Counter" component={Counter} />
                     <Route path="/" component={Kform} />
                 </Switch>
-            </HashRouter>
+            </BrowserRouter>
         )
     }
 }
