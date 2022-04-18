@@ -12,7 +12,7 @@ class Routes extends Component {
             <HashRouter>
                 <Header />
                 <Switch>
-                    <Route path="/Counter" component={Counter} />
+                    <Route path="/KafqaProject/#/Counter" component={Counter} />
                     <Route path="/" component={Kform} />
                 </Switch>
             </HashRouter>
