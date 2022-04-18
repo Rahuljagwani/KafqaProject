@@ -38,7 +38,7 @@ const Kform = () => {
            console.log(data);
            console.log(values);
 
-            if(values.name==data.name&&values.email==data.email&&values.phonenumber==data.phonenumber&&values.password==data.password)
+            if(values.name===data.name&&values.email===data.email&&values.phonenumber===data.phonenumber&&values.password===data.password)
             {
                 alert('You are valid user');
                changeflag(1);
@@ -50,7 +50,7 @@ const Kform = () => {
         }
     }
 
-    if(flag==1)
+    if(flag===1)
     {
         return(
             <>
