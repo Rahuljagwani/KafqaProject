@@ -9,7 +9,7 @@ class Routes extends Component {
 
     render() {
         return (
-            <HashRouter>
+            <HashRouter basename={process.env.PUBLIC_URL }>
                 <Header />
                 <Switch>
                     <Route path="/Counter" component={Counter} />
