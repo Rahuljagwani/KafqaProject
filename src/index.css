@@ -1,13 +1,89 @@
+html,
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  background-color: rgb(139, 234, 234);
 }
+label {
+  font-size: large;
+  font-style: italic;
+}
+.container {
+  margin: 8% 0;
+  padding: 16px 0;
+  text-align: left;
+  border: 2px solid rgb(181, 0, 127);
+  background-color: pink;
+  border-radius: 15%;
+  box-shadow: 0 6px 20px 0 rgb(231, 6, 182);
+}
+.container-counter{
+  display: flex;
+  margin: 8% 0;
+  padding: 16px 0;
+ justify-content: center;
+  border: 2px solid rgb(181, 0, 127);
+  background-color: pink;
+  border-radius: 15%;
+  box-shadow: 0 6px 20px 0 rgb(231, 6, 182);
+}
+.formcontainer {
+  text-align: center;
+  margin: 24px 50px 12px;
+}
+.inputlabelbox {
+  margin: 4%;
+}
+.form-control {
+  width: 100%;
+  padding: 16px 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(34, 33, 33);
+  font-size: larger;
+  box-sizing: border-box;
+  }
+.navele {
+  margin: 3% 7%;
+  text-decoration: none;
+  color: rgb(247, 33, 54);
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  border: 2px solid rgb(181, 0, 127);
+  background-color: pink;
+  border-radius: 15%;
+  box-shadow: 0 6px 20px 0 rgb(231, 6, 182);
+}
+.btn {
+  margin: 2%;
+  width: 30%;
+  height: 5vh;
+  background-color: rgb(158, 239, 66);
+  font-size: larger;
+  border-radius: 20px;
+}
+.btn1{
+  background-color: pink;
+  border: none;
+  margin: 10%;
+  font-size: xx-large;
+}
+.counter-value{
+  margin: 5%;
+  width: 20%;
+  height: 20%;
+  background-color: rgba(202, 23, 23, 0.829);
+  color:white;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10%;
+  border-radius: 15%;
+  font-size: xxx-large;
+  box-shadow: 0 6px 20px 0 rgb(239, 151, 68) ;
 }
